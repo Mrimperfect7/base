@@ -1,0 +1,19 @@
+{
+  "name": "sulthan-baileys-whatsapp-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Starter WhatsApp chatbot targeting @sulthan/baileys",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@sulthan/baileys": "latest",
+    "dotenv": "^16.4.7",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
